@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <main class="main">
+      <h1 class="main__header">Learn to code by watching others</h1>
+      <p class="main__text">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.
+      </p>
+    </main>
+
+    <section class="sign-up">
+      <div class="sign-up__header">
+        <p class="sign-up__text"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      </div>
+
+      <form action="#" class="sign-up__form" autocomplete="off" aria-label="form"> 
+        <div class="sign-up__wrapper">
+          <input type="text" class="sign-up__input" placeholder="First Name" aria-label="first name">
+          <svg class="sign-up__error-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          <p class="sign-up__error-text">First name cannot be empty</p>
+        </div>
+
+        <div class="sign-up__wrapper">
+          <input type="text" class="sign-up__input" placeholder="Last Name" aria-label="last name">
+          <svg class="sign-up__error-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          <p class="sign-up__error-text">Last name cannot be empty</p>
+        </div>
+
+        <div class="sign-up__wrapper">
+          <input type="text" class="sign-up__input" placeholder="Email Address" id="email" aria-label="email">
+          <svg class="sign-up__error-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          <p class="sign-up__error-text">Looks like this is not an email</p>
+        </div>
+
+        <div class="sign-up__wrapper">
+          <input type="password" class="sign-up__input" placeholder="Password" aria-label="password">
+          <svg class="sign-up__error-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          <p class="sign-up__error-text">Password cannot be empty</p>
+        </div>       
+        
+        <button class="sign-up__btn">Claim your free trial</button>
+
+        <p class="sign-up__terms">
+          By clicking the button, you are agreeing to our 
+          <a href="#" class="sign-up__link">Terms and Services</a>
+        </p>
+      </form>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
